@@ -1,0 +1,26 @@
+defaults:
+  - _self_
+  - model: bart-base
+  - dataset: cnn_bart
+
+log_comet: true
+
+trainer:
+  num_train_epochs: 1
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_dir: "logs"
+  logging_steps: 100
+  evaluation_strategy: "steps"
+  save_strategy: "steps"
+  load_best_model_at_end: False
+  learning_rate: 5e-6
+  dataloader_num_workers: 4
+  save_total_limit: 2
+  use_cpu: False
+  fp16: True
+  metric_for_best_model: "R2"
+  greater_is_better: True
+  eval_steps: 1000
