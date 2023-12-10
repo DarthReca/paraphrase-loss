@@ -30,12 +30,7 @@
 
 ## About
 
-> **[?]**
-> Provide general information about your project here.
-> What problem does it (intend to) solve?
-> What is the purpose of your project?
-> Why did you undertake it?
-> You don't have to answer all the questions -- just the ones relevant to your project.
+Code for Paraphrase Loss. **REPOSITORY IN CONSTRUCTION. SOME FILES CAN BE MISSING.**
 
 ## Getting Started
 
