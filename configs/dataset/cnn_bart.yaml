@@ -1,0 +1,6 @@
+train_set_file: "data/cnn_dailymail/bart-base/train_encoder_decoder.parquet"
+val_set_file: "data/cnn_dailymail/bart-base/validation_encoder_decoder.parquet"
+test_set_file: "data/cnn_dailymail/bart-base/test_encoder_decoder.parquet"
+num_workers: 4
+batch_size: 8
+model_name: facebook/bart-base
